@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn More About the Merch</title>
+    <link rel="stylesheet" href="style.css"> <!-- Keep your custom stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        // JavaScript interaction: Display contact information on button click
+        function showContact() {
+            alert("You can reach us at labbieec@miamioh.edu or call 222-333-4444 for help.");
+        }
+    </script>
+    <style>
+        .header-bg {
+            background-color: #f8bbd0; /* Light pink background */
+        }
+        .section-bg {
+            background-color: #fff3e0; /* Light orange background */
+        }
+        .gallery {
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allow wrapping */
+            justify-content: center; /* Center the images */
+            gap: 10px; /* Space between images */
+        }
+        .gallery img {
+            width: 150px; /* Set a fixed width for images */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        }
+    </style>
+</head>
+<body class="section-bg">
+
+    <header class="header-bg">
+        <h1>Sorority Merch Store</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="learnmore.html">Learn More About the Merch</a>
+            <a href="aboutme.html">Learn More About Me</a>
+            <a href="contact.html">Contact</a>
+            <a href="materialize.html">Materialize Page</a> <!-- Added link to Materialize page -->
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Explore Our Collection</h2>
+        <p>We pride ourselves on offering a variety of unique merchandise that captures the spirit of sisterhood. From stylish apparel to fun accessories, there's something for everyone!</p>
+        
+        <h3>Merchandise Categories:</h3>
+        <ul>
+            <li>T-shirts</li>
+            <li>Hoodies</li>
+            <li>Accessories</li>
+            <li>Stickers</li>
+            <li>Sweatpants</li>
+        </ul>
+
+        <h3>Featured Merchandise:</h3>
+        <div class="gallery">
+            <img src="https://www.greekify.com/cdn/shop/products/zeta-tau-alpha-country-western-pink-sorority-t-shirt-778703.jpg?v=1695368394" alt="Zeta T-Shirt">
+            <img src="https://greekletterco.com/cdn/shop/products/IMG_8766.jpg?v=1653663113" alt="Greek Letter T-Shirt">
+            <img src="https://universityspirit.com/cdn/shop/products/SororityGirlPowerStickerSheet_1200x1200.jpg?v=1629420026" alt="Sorority Stickers">
+            <img src="https://cdn11.bigcommerce.com/s-6m4lg15la2/images/stencil/1280x1280/products/102638/683166/PBF-sweatpant__45169.1726506970.jpg?c=1" alt="Sweatpants">
+            <img src="https://thelettermarket.com/cdn/shop/products/67B273D9-A864-4598-A98E-890940EE6DE9_1800x1800.jpg?v=1656690753" alt="Letter Market">
+        </div>
+
+        <h3>Get in Touch</h3>
+        <button onclick="showContact()">Contact Us</button> <!-- JavaScript Button: Contact Us -->
+    </main>
+
+    <footer>
+        <p><b>Sorority Merch Store</b> | <a href="https://miamioh.edu/index.html" target="_blank">Miami University</a></p>
+    </footer>
+</body>
+</html>

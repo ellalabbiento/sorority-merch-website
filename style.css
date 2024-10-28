@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    background-color: #ffe4f1; /* Light pink background */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, casual font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #d5006d; /* Bright pink header background */
+    color: #ffffff; /* White text color */
+    padding: 20px; /* Padding for header */
+    text-align: center; /* Center the text */
+    border-bottom: 5px solid #ff69b4; /* Bright pink border */
+}
+
+/* Navigation Styles */
+nav {
+    margin: 10px 0; /* Margin around navigation */
+}
+
+nav a {
+    color: #ffffff; /* Link color */
+    margin: 0 15px; /* Margin between links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ff69b4; /* Bright pink on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px; /* Padding for main content */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center footer text */
+    padding: 10px; /* Padding for footer */
+    background-color: #d5006d; /* Bright pink footer background */
+    color: #ffffff; /* Footer text color */
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Table width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+    background-color: #ffffff; /* White background for table */
+}
+
+th, td {
+    border: 2px solid #ff69b4; /* Bright pink border for table cells */
+    padding: 10px; /* Padding inside cells */
+    text-align: center; /* Center text in table */
+}
+
+th {
+    background-color: #673ab7; /* Purple header background */
+    color: white; /* White header text color */
+}
+
+/* Strong Text */
+strong {
+    color: #d5006d; /* Bright pink for strong text */
+}
+
+/* Materialize Overrides */
+.card {
+    background-color: #ffffff; /* White background for cards */
+}
+
+.btn {
+    background-color: #d5006d; /* Button background color */
+    color: #ffffff; /* Button text color */
+}
+
+.btn:hover {
+    background-color: #ff69b4; /* Button hover color */
+}
