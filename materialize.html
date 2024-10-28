@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorority Merch Store - Materialize Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- Keep your custom stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        // JavaScript interaction 1: Button to show sales information
+        function shopNow() {
+            alert("Thank you for your interest! Our sales are only available online.");
+        }
+
+        // JavaScript interaction 2: Display contact information on button click
+        function showContact() {
+            alert("You can reach us at labbieec@miamioh.edu or call 222-333-4444 for help.");
+        }
+    </script>
+    <style>
+        .header-bg {
+            background-color: #f8bbd0; /* Light pink background */
+        }
+        .section-bg {
+            background-color: #fff3e0; /* Light orange background */
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .team-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Circular image */
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .gallery img {
+            width: 30%; /* Adjust image size */
+            margin: 5px; /* Space between images */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sorority Merch Store</h1>
+        <nav class="header-bg">
+            <a href="index.html">Home</a>
+            <a href="learnmore.html">Learn More About the Merch</a>
+            <a href="aboutme.html">Learn More About Me</a>
+            <a href="contact.html">Contact</a>
+            <a href="materialize.html">Materialize Page</a> <!-- Added link to Materialize page -->
+        </nav>
+    </header>
+    
+    <main class="section-bg">
+        <section>
+            <h2>Welcome to Ella's Sorority Merch Sale!</h2>
+            <h3>Who doesn't love representing your sorority by wearing cute merch?</h3>
+            <blockquote>Explore below our exciting new collection drop!</blockquote>
+        </section>
+        
+        <p>You can discover many items that show your sorority spirit. We have everything from <b>accessories</b> to apparel. Our collections are carefully curated to reflect the values and pride of Greek life. We aim to create products that not only look good but also resonate with the values of sisterhood.</p>
+        <p>With the changing seasons, our merch line adapts to provide the perfect outfit for every occasion. Whether it’s a casual day at class or a spirited event, our items ensure you’re always stylishly representing your sorority. We also believe in sustainability and are committed to using eco-friendly materials whenever possible.</p>
+
+        <hr>
+
+        <aside>
+            <p>It’s super easy! Just build your custom merch on our website and we will ship it to you!</p>
+            <p>Stay tuned for new collections and collabs!</p>
+        </aside>
+
+        <hr>
+
+        <!-- Circular Image of Miami University -->
+        <h3>Founded at Miami University</h3>
+        <img src="https://miamioh.edu/redesign2020/_home-files/images/2022/03/aerial-campus-short.jpg" alt="Miami University" class="team-image"> <!-- Circular image -->
+        <p>Our company proudly began at Miami University, where we embraced the values of community and sisterhood.</p>
+
+        <!-- JavaScript Button 1: Where can you shop? -->
+        <button onclick="shopNow()">Where can you shop?</button>
+        
+        <hr>
+        
+        <h3>We offer:</h3>
+        <ul>
+            <li>T-shirts and Hoodies</li>
+            <li>Accessories</li>
+            <li>Stickers</li>
+            <li>Shorts</li>
+            <li>Sweatpants</li>
+        </ul>
+
+        <h3>Our Collection:</h3>
+        <div class="gallery">
+            <img src="https://www.greekify.com/cdn/shop/products/zeta-tau-alpha-country-western-pink-sorority-t-shirt-778703.jpg?v=1695368394" alt="Zeta T-Shirt">
+            <img src="https://greekletterco.com/cdn/shop/products/IMG_8766.jpg?v=1653663113" alt="Greek Letter T-Shirt">
+            <img src="https://universityspirit.com/cdn/shop/products/SororityGirlPowerStickerSheet_1200x1200.jpg?v=1629420026" alt="Sorority Stickers">
+            <img src="https://cdn11.bigcommerce.com/s-6m4lg15la2/images/stencil/1280x1280/products/102638/683166/PBF-sweatpant__45169.1726506970.jpg?c=1" alt="Sweatpants">
+            <img src="https://thelettermarket.com/cdn/shop/products/67B273D9-A864-4598-A98E-890940EE6DE9_1800x1800.jpg?v=1656690753" alt="Letter Market">
+        </div>
+
+        <h3>Watch Our Story</h3>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </main>
+    
+    <footer>
+        <p><b>Sorority Merch Store</b> | <a href="https://miamioh.edu/index.html" target="_blank">Miami University</a></p>
+        <button onclick="showContact()">Contact Us</button> <!-- JavaScript Button 2: Contact Us -->
+    </footer>
+</body>
+</html>
+
+
+
+
+
